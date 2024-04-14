@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&display=swap');
+
+body{
+    margin: 0;
+    font-family: Chau Philomene One;
+    color: white;
+    background-color: #385C3F;
+    overflow-x: hidden;
+}
+a{
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    padding: 3px 10px;
+}
+nav a:hover{
+    color: #18DB3F;
+    transform: scale(1.2,1.2);
+}
+.presentacion a:hover{
+    color: white;
+}
+svg{
+    height: 150px;
+    width: 150px;
+    filter: drop-shadow(4px 6px 7px black);
+}
+.headerInicio{
+    background-color: #28332A;
+    margin: 0;
+    padding: 20px;
+    min-height: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-shadow: 0px 2px 5px rgb(0,0,0,1);
+    transition: box-shadow 0.5s ease;
+}
+.headerInicio:hover{
+    box-shadow: 0px -2px 50px rgb(0,0,0,1);
+}
+.nombre{
+    margin-top: 20px;
+    font-size: 40px;
+
+    transition: transform 0.1s ease;
+}
+.nombre:hover{
+    transform: scale(1.1,1.1);
+}
+.description{
+    font-family: Chau Philomene One;
+    margin-top: -30px;
+    font-size: 20px;
+}
+.links{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;    
+}
+.sobreMi{   
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: auto;
+
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor{
+    width: 700px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+    transition: transform 0.3s ease;
+}
+.contenedor:hover{
+    transform: scale(1.1,1.1);
+    .cnt-right{
+        background-color: #18DB3F;
+    }
+}
+.cnt-left{
+    background-color: #28332A;
+    width: 30%;
+    font-size: 150px;
+
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.cnt-right{
+    background-color: #3C864A;
+    width: 70%;
+
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+
+    text-align: justify;
+
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+.texto{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    font-size: 26px;
+}
+.sec-habilidades{
+    margin: 0;
+    height: 400px;
+    background-color: #28332A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    
+    box-shadow: 0px -2px 5px rgb(0,0,0,1);
+    
+    transition: transform 0.5s ease;
+}
+.sec-habilidades:hover{
+    box-shadow: 0px 2px 50px rgb(0,0,0,100);
+    transform: scale(1.1,1.1);
+}
+.icons{
+    display: flex;
+}
+.lblHabilidades{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.icons-abilities{
+    background-color: #3C864A;
+    height: 250px;
+    width: 200px;
+
+    border-radius: 10px;
+    box-shadow: 4px 2px 5px black;
+
+    margin: 0px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;    
+}
+.icons-abilities:hover{
+    background-color: #18DB3F;
+    transform: scale(1.1,1.1);
+}
+.sec-proyectos{
+    background-color:#28332A;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transition: transform 0.3s ease;
+}
+.sec-proyectos:hover{
+    box-shadow: 0px 2px 50px rgb(0,0,0,100);
+    transform: scale(1.1,1.1);
+}
+.labelProject{
+    margin-top: 30px;
+}
+.iconsProjects{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+}
+.lblProject{
+    font-size: 40px;
+}
+.imgProjects{
+    background-color: #3C864A;
+    height: 250px;
+    width: 200px;
+    margin: 0px 15px;
+
+    border-radius: 10px;
+    box-shadow: 4px 2px 5px black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transition: transform 0.3s ease; 
+}
+.imgProjects label{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.imgProjects img{
+    height: 150px;
+    width: 150px;
+}
+.imgProjects:hover{
+    background-color: #18DB3F;
+    transform: scale(1.1,1.1);
+}
+.imgProjects a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec-cursos{
+    background-color: #28332A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    width: 100%;
+
+    box-shadow: 0px 2px 1px rgb(0,0,0,1);
+    transition: box-shadow 1s ease;
+    transition: transform 0.3s ease;
+}
+.sec-cursos:hover{
+    transform: scale(1.1,1.1);
+    box-shadow: 0px 2px 50px rgb(0,0,0,10);
+}
+.labelCursos{
+    margin-top: 30px;
+    font-size: 40px;
+}
+.descripcionCursos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+.descripcionCursos img{
+    width: 250px;
+    border-radius: 50%;
+}
+.descripcionCursos label{
+    margin-top: 30px;
+    font-size: 23px;
+    text-align: center;
+}
+.card{
+    position: relative;
+    width: 300px;
+    height: 450px;
+    margin: 0 15px;
+    margin-bottom: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+}
+.card .face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.card .front{
+    background-color:#3C864A;
+    transform: perspective(600px) rotateY(0deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+
+    box-shadow: 4px 2px 5px black;
+}
+.card .back{
+    background-color:#3C864A;
+    transform: perspective(600px) rotateY(180deg);
+    padding: 15px;
+
+    height: 450px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    text-align: justify;
+
+    box-shadow: 4px 2px 5px black;
+}
+.back p{
+    width: 95%;
+    font-size: 20px;
+}
+.card:hover .front{
+    background-color: #18DB3F;
+    transform: perspective(600px) rotateY(180deg);
+}
+.card:hover .back{
+    background-color: #18DB3F;
+    transform: perspective(600px) rotateY(360deg);
+}
+
+.footerContacto{
+    margin-top: 150px;
+    height: 180px;
+    background-color: #28332A;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transition: 0.5s ease;
+    box-shadow: 0px -2px 1px rgb(0,0,0,1);
+}
+.footerContacto:hover{
+    box-shadow: 0px -2px 50px rgb(0,0,0,1);
+}
+.lblContacto{
+    margin-top: 50px;
+    font-size: 40px;
+}
+.enlaces{
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+    display: flex;
+}
+.linksContacto{
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+.linksContacto:hover {
+    transform: scale(1.2,1.2);
+}
+.enlaces a:hover{
+    color: #18DB3F;
+}
+img, i,svg{
+    transition: 0.3s;
+}
+img:hover, i:hover, svg:hover{
+    transform: scale(1.2,1.2);
+}
+
+@media (max-width: 700px){   
+    .headerInicio{
+        margin: 0 ;
+        width: 100%;       
+
+        display: flex;
+        flex-direction: column;
+    }
+    .presentacion a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .links{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedor{
+        width: 70%;
+        height: 300px;
+    }
+    .contenedor p{
+        font-size: 18px;
+    }
+    .contenedor i{
+        font-size: 130px;
+    }
+    .iconsProjects{
+        display: flex;
+        flex-direction: column;
+    }
+    .imgProjects{
+        margin-top: 15px;
+    }
+    .descripcionCursos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        width: 200px;
+        height: 225px;
+
+        margin: 0 10px;
+    }
+    .enlaces{
+        font-size: 20px;
+    }
+}
